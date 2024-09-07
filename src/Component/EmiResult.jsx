@@ -1,6 +1,6 @@
 // src/components/EMIResults.js
 import React, { useState } from 'react';
-import EMIBreakdown from './EMIBreakdown';
+import EMIBreakdown from './EmiBreakDown';
 
 const EMIResults = ({ results }) => {
   const [showBreakdown, setShowBreakdown] = useState(false);
